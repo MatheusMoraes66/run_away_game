@@ -6,6 +6,6 @@
 #include <time.h>
 
 
-int randonNumber(int init, int end);
+int randomNumber(int init, int end);
 
 #endif
