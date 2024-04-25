@@ -6,10 +6,10 @@ void renderMap(const Map *map) {
   }
 }
 
-void updateMap(const Map *map, int x, int y, char character) {
-     if(map->tiles[x][y] == EMPTY) {
-         foundCharacter(map, character);
-            map->tiles[x][y] = character;
+void updateMap(const Map *map, Character *personage) {
+     if(map->tiles[personage->x][personage->y] == EMPTY) {
+         foundCharacter(map, personage->character);
+            map->tiles[personage->x][personage->y] = personage->character;
      }
 }
 
