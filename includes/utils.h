@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-
-int randomNumber(int init, int end);
+int randomNumber(int limitNumber);
 
 #endif

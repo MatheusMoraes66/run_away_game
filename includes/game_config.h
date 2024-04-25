@@ -19,9 +19,9 @@ typedef struct {
 
 typedef struct {
   Character base;
-  int pespective[2][2];
   int intentionX;
   int intentionY;
+  int memory;
 } Enemy;
 
 typedef struct {

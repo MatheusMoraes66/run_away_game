@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 void renderMap(const Map *map);
-void updateMap(const Map *map, int x, int y, char character);
+void updateMap(const Map *map, Character *character);
 void foundCharacter(const Map *map, char character);
 
 #endif
