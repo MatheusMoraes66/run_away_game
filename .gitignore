@@ -4,6 +4,7 @@
 
 # Executables
 program
+run_away
 
 # Build directory
 /build/
